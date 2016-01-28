@@ -17,3 +17,20 @@ una iteracion del experimento basta con ejecutar el siguiente script de bash:
 ```
 
 El script debe de modificarse de acuerdo al número de cores que se deseen usar.
+
+
+## Experimento IO-bound: toupper
+
+En este experimento se usa un script en python que convierte a mayúsculas lo
+que recibe por `stdin`. El script esta en el archivo `toupper.py`. Para correr
+una iteracion del experimento basta con ejecutar el siguiente script de bash:
+
+```
+./iobound1core.sh
+```
+```
+./iobound2cores.sh
+```
+```
+./iobound8cores.sh
+```
